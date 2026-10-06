@@ -1,0 +1,67 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Unused Rector\\Php80\\Contract\\StrStartWithMatchAndRefactorInterface\:\:match$#'
+			identifier: shipmonk.deadMethod
+			count: 1
+			path: rules/Php80/Contract/StrStartWithMatchAndRefactorInterface.php
+
+		-
+			message: '#^Unused Rector\\Php80\\Contract\\StrStartWithMatchAndRefactorInterface\:\:refactorStrStartsWith$#'
+			identifier: shipmonk.deadMethod
+			count: 1
+			path: rules/Php80/Contract/StrStartWithMatchAndRefactorInterface.php
+
+		-
+			message: '#^Unused Rector\\BetterPhpDocParser\\Contract\\PhpDocParser\\PhpDocNodeDecoratorInterface\:\:decorate$#'
+			identifier: shipmonk.deadMethod
+			count: 1
+			path: src/BetterPhpDocParser/Contract/PhpDocParser/PhpDocNodeDecoratorInterface.php
+
+		-
+			message: '#^Unused Rector\\Parallel\\Contract\\SerializableInterface\:\:decode$#'
+			identifier: shipmonk.deadMethod
+			count: 1
+			path: src/Parallel/Contract/SerializableInterface.php
+
+		-
+			message: '#^Unused Rector\\PhpParser\\Printer\\BetterStandardPrinter\:\:pInterpolatedStringPart$#'
+			identifier: shipmonk.deadMethod
+			count: 1
+			path: src/PhpParser/Printer/BetterStandardPrinter.php
+
+		-
+			message: '#^Unused Rector\\PhpParser\\Printer\\BetterStandardPrinter\:\:pStmt_FileNode$#'
+			identifier: shipmonk.deadMethod
+			count: 1
+			path: src/PhpParser/Printer/BetterStandardPrinter.php
+
+		-
+			message: '#^Unused Rector\\Set\\Contract\\SetInterface\:\:getGroupName$#'
+			identifier: shipmonk.deadMethod
+			count: 1
+			path: src/Set/Contract/SetInterface.php
+
+		-
+			message: '#^Unused Rector\\Set\\Contract\\SetInterface\:\:getName$#'
+			identifier: shipmonk.deadMethod
+			count: 1
+			path: src/Set/Contract/SetInterface.php
+
+		-
+			message: '#^Unused Rector\\Set\\Contract\\SetInterface\:\:getSetFilePath$#'
+			identifier: shipmonk.deadMethod
+			count: 1
+			path: src/Set/Contract/SetInterface.php
+
+		-
+			message: '#^Property Rector\\Tests\\BetterPhpDocParser\\PhpDocInfo\\PhpDocInfoPrinter\\AbstractPhpDocInfoPrinterTestCase\:\:\$filePathHelper is never read$#'
+			identifier: shipmonk.deadProperty.neverRead
+			count: 1
+			path: tests/BetterPhpDocParser/PhpDocInfo/PhpDocInfoPrinter/AbstractPhpDocInfoPrinterTestCase.php
+
+		-
+			message: '#^Unused Rector\\Tests\\Caching\\ValueObject\\Storage\\FileCacheStorageTest\:\:provideConfigFilePath$#'
+			identifier: shipmonk.deadMethod
+			count: 1
+			path: tests/Caching/ValueObject/Storage/FileCacheStorageTest.php
